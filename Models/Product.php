@@ -1,8 +1,5 @@
 <?php
 #this is our product class 
-// we get the content of the "dbs"
-$movies = file_get_contents("movie_db.json");
-$books = file_get_contents("books_db.json");
 
 class Product
 {
