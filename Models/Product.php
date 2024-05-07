@@ -19,6 +19,3 @@ class Product
         $this->rating = $rating;
     }
 }
-$movie = new Product('1', 'The Matrix', 'https://image.tmdb.org/t/p/w342/kt9nqD0uOar8IVE9191HXhWOXKI.jpg', 'Action, Adventure, Sci-Fi', '5.6');
-echo $movie->id;
-$book = new Product();
