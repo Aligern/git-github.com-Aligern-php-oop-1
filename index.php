@@ -35,7 +35,7 @@ $books = [
                         <span><?= $movie->language ?>
                         </span>
                         <br>
-                        <span><?= $movie->rating ?>
+                        <span class="text-warning"><?= $movie->getVote() ?>
                         </span>
                     </div>
                 </div>

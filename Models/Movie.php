@@ -14,4 +14,13 @@ class Movie extends Product
         // parent:: allows us to use the properties and methods of the parent class
         parent::__construct($id, $title, $image, $description, $rating);
     }
+    public function getVote(){
+        $star = ceil($this->rating / 2);
+        $template = "<p>";
+        for($n = 1; $n <= 5; $n++){
+            $template .= $n <=$star ? '<i class="fa-solid fa-star"></i>' : '<i class="fa-regular fa-star"></i>';    
+    }
+    $template .= "</p>";
+    return $template;
+}
 }
