@@ -14,5 +14,4 @@ class Movie extends Product
         // parent:: allows us to use the properties and methods of the parent class
         parent::__construct($id, $title, $image, $description, $rating);
     }
-
 }

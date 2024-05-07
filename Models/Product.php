@@ -1,5 +1,5 @@
 <?php
-#this is our product class 
+#this file is our product class 
 
 class Product
 {
